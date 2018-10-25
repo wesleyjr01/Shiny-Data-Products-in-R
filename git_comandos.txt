@@ -46,3 +46,8 @@ git checkout <nomedoarquivo>
 
 # Para desfazer todas as alteracos para um estado anterior na repo
 git reset --hard
+
+# Para criar uma branch nova
+git branch <nomedabranch>
+git checkout <nomedabranch> #Para acessar a nova branch criada
+git push -u origin <nomedabranch> # Para mandar essa nova branch criada para o servidor
